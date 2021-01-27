@@ -17,7 +17,10 @@ public class Main {
         TextEditorService textEditorService = new TextEditorService();
         ParserService parserService = new ParserService();
         //textEditorService.function12(string, 2);
-        parserService.testParameter(string);
+
+        for(String str : parserService.getAllSentences(string)){
+            System.out.println(str);
+        }
 
     }
 }

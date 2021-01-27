@@ -5,6 +5,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Text implements Serializable {
+    private static
+
     private String allText;
     private String nameText = "Program's book";
     private int numberOfOperation = 2;

@@ -164,37 +164,60 @@ public class TextEditorService {
     }
 
 
-    public int findProposalsWithRepeatedWords(){
-        int count = 0;
-        return count;
-    }
 
-    public List<String> arrangeSentencesWordCount(List<String> listWithPrimordialText){
-        List<String> list = new ArrayList<>();
-        return list;
-    }
-
-    public String findExclusiveWord(List<String> listWithPrimordialText){
-        String exclusiveWord = null;
-        return exclusiveWord;
-    }
-
-    public List<String> interrogativeSentences(List<String> listWithPrimordialText){
-        List<String> list = new ArrayList<>();
-        return list;
-    }
-
-    public void chosenEditText(List<String> listWithSentences,String number){
+    /*public void chosenEditText(String strWithAllText, String number){
         switch (number){
             case "1":
                 System.out.println("Called case 1");
                 break;
             case "2":
-                System.out.println("Called case 2");
+                //function();
+                break;
+            case "3":
+                function3();
+                break;
+            case "4":
+                function4();
+                break;
+            case "5":
+                function5();
+                break;
+            case "6":
+                function6();
+                break;
+            case "7":
+                function12();
+                break;
+            case "8":
+                function5();
+                break;
+            case "9":
+                function9();
+                break;
+            case "10":
+                function4();
+                break;
+            case "11":
+                function5();
+                break;
+            case "12":
+                function12();
+                break;
+            case "13":
+                function4();
+                break;
+            case "14":
+                function5();
+                break;
+            case "15":
+                function4();
+                break;
+            case "16":
+                function16();
                 break;
             default:
         }
-    }
+    }*/
 
     
 }

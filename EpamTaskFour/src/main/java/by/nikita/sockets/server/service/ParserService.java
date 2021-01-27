@@ -47,10 +47,9 @@ public class ParserService {
 
     public List<String> getAllSentences(String line) {
 
-        StringBuilder fileRow = new StringBuilder();
         List<String> textSentences = new ArrayList<>();
 
-        String[] sentences = line.toString().split("[.]{3}|[.!?]");
+        String[] sentences = line.split("[.]{3}|[.!?]");
 
         for (String sentence : sentences) {
             textSentences.add(sentence.trim());
